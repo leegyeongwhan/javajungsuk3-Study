@@ -1,6 +1,6 @@
-package JavaJungSuk3_Study.Exercise;
+package JavaJungSuk3_Study.Exercise.ch9;
 
-public class Exercise9_1 {
+class Exercise9_1 {
     public static void main(String[] args) {
         SutdaCard1 c1 = new SutdaCard1(3, true);
         SutdaCard1 c2 = new SutdaCard1(3, true);
@@ -29,15 +29,13 @@ class SutdaCard1 {
 멤버변수 을 비교하도록 오버라이딩 하시오 num, isKwang .
 */
         if (!(obj instanceof SutdaCard1)) {
-            SutdaCard1 sc = (SutdaCard1) obj;
-            return this.num == sc.num && this.isKwang == sc.isKwang;
+            return false;
         }
-        return false;
-
+        SutdaCard1 s = (SutdaCard1) obj;
+        return this.isKwang == s.isKwang && this.num == s.num;
     }
 
     public String toString() {
         return num + (isKwang ? "K" : "");
     }
-
 }

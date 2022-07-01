@@ -1,4 +1,4 @@
-package JavaJungSuk3_Study.Exercise;
+package JavaJungSuk3_Study.Exercise.ch9;
 
 public class Exercise9_9 {
 

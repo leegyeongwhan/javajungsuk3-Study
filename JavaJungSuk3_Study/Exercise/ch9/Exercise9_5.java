@@ -1,4 +1,4 @@
-package JavaJungSuk3_Study.Exercise;
+package JavaJungSuk3_Study.Exercise.ch9;
 
 class Exercise9_5 {
     public static int count(String src, String target) {
@@ -13,6 +13,7 @@ pos target.length . 의 값을 만큼 증가시킨다
 */
         while (true) {
             pos = src.indexOf(target, pos); // 5 ,9 ,14
+            System.out.println("pos = " + pos);
             if (pos != -1) {
                 count++;
                 pos += target.length();

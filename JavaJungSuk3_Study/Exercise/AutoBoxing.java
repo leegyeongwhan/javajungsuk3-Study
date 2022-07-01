@@ -1,4 +1,4 @@
-package JavaJungSuk3_Study.Example;
+package JavaJungSuk3_Study.Exercise;
 
 import java.util.ArrayList;
 

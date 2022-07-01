@@ -9,7 +9,7 @@ class Product
     bonusPoint =(int)(price/10.0);
   }
 }
-class Tv extends Product {
+class Tv extends Product1 {
   Tv() {
     super(1000);
   }

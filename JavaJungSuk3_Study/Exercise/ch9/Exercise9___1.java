@@ -1,4 +1,6 @@
-  class Exercise9___1 {
+package JavaJungSuk3_Study.Exercise.ch9;
+
+class Exercise9___1 {
     public static void main(String[] args) {
         SutdaCard c1 = new SutdaCard(3,true);
         SutdaCard c2 = new SutdaCard(3,true);

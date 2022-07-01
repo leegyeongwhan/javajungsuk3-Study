@@ -1,4 +1,4 @@
-package JavaJungSuk3_Study.Exercise;
+package JavaJungSuk3_Study.Exercise.ch9;
 
 class Exercise9_3 {
     public static void main(String[] args) {
@@ -7,15 +7,16 @@ class Exercise9_3 {
         String fileName = "";
 /*
 (1) . 알맞은 코드를 넣어 완성하시오
-
 */
-        String[] arr = path.split("'\\'");
-        System.out.println(arr[0]);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        int pos = fullPath.lastIndexOf("\\");
+        if (pos != -1) {
+            path = fullPath.substring(0, pos);
+            fileName = fullPath.substring(pos + 1);
+
         }
         System.out.println("fullPath:" + fullPath);
         System.out.println("path:" + path);
         System.out.println("fileName:" + fileName);
     }
+
 }

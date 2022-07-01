@@ -1,4 +1,4 @@
-package JavaJungSuk3_Study.Exercise;
+package JavaJungSuk3_Study.Exercise.ch9;
 
 class Exercise9_4 {
     static void printGraph(int[] dataArr, char ch) {

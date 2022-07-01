@@ -1,4 +1,4 @@
-package JavaJungSuk3_Study.Exercise.ch06;
+package JavaJungSuk3_Study.Example.ch06;
 
 public class Exercise6_22 {
   /*

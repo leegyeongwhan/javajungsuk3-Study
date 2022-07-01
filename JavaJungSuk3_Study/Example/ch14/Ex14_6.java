@@ -8,7 +8,6 @@ public class Ex14_6 {
         File[] fileArr = {new File("Ex1.java"), new File("Ex1.bak"),
                 new File("Ex2.java"), new File("Ex1"), new File("Ex1.txt"),
         };
-
         Stream<File> fileStream = Stream.of(fileArr);
 
         Stream<String> filenameStream = fileStream.map(File::getName);

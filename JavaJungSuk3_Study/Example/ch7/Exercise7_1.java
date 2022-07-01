@@ -1,4 +1,4 @@
-package JavaJungSuk3_Study.Exercise.ch7;
+package JavaJungSuk3_Study.Example.ch7;
 
 class SutdaDeck {
   final int CARD_NUM = 20;
